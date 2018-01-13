@@ -1,13 +1,14 @@
-﻿빌드 시작: 2018-01-06 오후 4:12:47
-     1>2 노드의 "C:\Users\USER\Documents\GitHub\Win32API-Class\Win32Project\20180106\20180106.vcxproj" 프로젝트(Build 대상)입니다.
+﻿빌드 시작: 2018-01-13 오전 11:38:32
+     1>2 노드의 "C:\Users\USER\Documents\GitHub\Win32API-Class\Win32Project\20180106\20180106.vcxproj" 프로젝트(ClCompile 대상)입니다.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt WinMain.cpp
          WinMain.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Documents\GitHub\Win32API-Class\Win32Project\Debug\20180106.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\USER\Documents\GitHub\Win32API-Class\Win32Project\Debug\20180106.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Documents\GitHub\Win32API-Class\Win32Project\Debug\20180106.lib" /MACHINE:X86 Debug\WinMain.obj
-         20180106.vcxproj -> C:\Users\USER\Documents\GitHub\Win32API-Class\Win32Project\Debug\20180106.exe
-     1>"C:\Users\USER\Documents\GitHub\Win32API-Class\Win32Project\20180106\20180106.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+     1>c:\users\user\documents\github\win32api-class\win32project\20180106\winmain.cpp(23): error C2440: '=' : 'LPSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>c:\users\user\documents\github\win32api-class\win32project\20180106\winmain.cpp(30): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)' : 인수 2을(를) 'LPSTR'에서 'LPCWSTR'(으)로 변환할 수 없습니다.
+                 가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 함수 스타일 캐스트가 필요합니다.
+     1>"C:\Users\USER\Documents\GitHub\Win32API-Class\Win32Project\20180106\20180106.vcxproj" 프로젝트를 빌드했습니다(ClCompile 대상). - 실패
 
-빌드했습니다.
+빌드하지 못했습니다.
 
-경과 시간: 00:00:00.62
+경과 시간: 00:00:00.39
